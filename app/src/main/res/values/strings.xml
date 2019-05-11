@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cinema 21</string>
+    <string name="txtusr"><![CDATA[<Username>]]></string>
+    <string name="nameSaekano">Saenai Heroine no Sodate-kata fine</string>
+    <string name="descSaekano">Tomoya Aki, an otaku, has been obsessed with collecting anime and light novels for years,
+        attaching himself to various series with captivating stories and characters.
+        Now, he wants to have a chance of providing the same experience for others by creating his own game,
+        but unfortunately, Tomoya cannot do this task by himself.
+        He successfully recruits childhood friend Eriri Spencer Sawamura to illustrate and literary elitist
+        Utaha Kasumigaoka to write the script for his visual novel, while he directs. Super-group now in hand,
+        Tomoya only needs an inspiration to base his project on, and luckily meets the beautiful, docile Megumi Katou,
+        who he then models his main character after.
+
+        Using what knowledge he has, Tomoya creates a new doujin circle with hopes to touch the hearts of those who play their game.
+        What he does not realize, is that to invoke these emotions, the creators have had to experience the same feelings in
+        their own lives.
+</string>
+    <string name="namePikachu">Pokémon Detective Pikachu</string>
+    <string name="descPikachu">A young man joins forces with Detective Pikachu to unravel the mystery behind his father`s disappearance.
+        Chasing clues through the streets of Ryme City, the dynamic duo soon discover a devious plot
+        that poses a threat to the Pokémon universe.</string>
+    <string name="nameSeishun">Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</string>
+    <string name="descSeishun">The rare and inexplicable Puberty Syndrome is thought of as a myth.
+        It is a rare disease which only affects teenagers, and its symptoms are so supernatural that hardly anyone recognizes it
+        as a legitimate occurrence. However, high school student Sakuta Azusagawa knows from personal experience that it is very
+        much real, and happens to be quite prevalent in his school.
+
+        Mai Sakurajima is a third-year high school student who gained fame in her youth as a child actress,
+        but recently halted her promising career for reasons unknown to the public. With an air of unapproachability,
+        she is well known throughout the school, but none dare interact with her—that is until Sakuta sees her wandering
+        the library in a bunny girl costume. Despite the getup, no one seems to notice her, and after confronting her, he
+        realizes that she is another victim of Puberty Syndrome. As Sakuta tries to help Mai through her predicament, his
+        actions bring him into contact with more girls afflicted with the elusive disease.</string>
+
+
+    <string name="navigation_open">
+    Open
+    </string>
+    <string name="navigation_close">
+        Close
+
+    </string>
+</resources>

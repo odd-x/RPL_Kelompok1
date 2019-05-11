@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clseatselect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeatSelect">
+
+    <TextView
+        android:id="@+id/txtCurrentMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="@string/nameSaekano"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgCurrCinema"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cgvlogo" />
+
+    <TextView
+        android:id="@+id/txtCurrMovTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="PLACEHOLDER TIME"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurrentMovie" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat1"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="8dp"
+        android:text="ToggleButton"
+        android:textOff="A1"
+        android:textOn="A1"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat2"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat2"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="A2"
+        android:textOn="A2"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat3"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="A3"
+        android:textOn="A3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat4"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="A4"
+        android:textOn="A4"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat5"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="36dp"
+        android:text="ToggleButton"
+        android:textOff="A5"
+        android:textOn="A5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat6"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="ToggleButton"
+        android:textOff="B1"
+        android:textOn="B1"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat7"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat1" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat7"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="B2"
+        android:textOn="B2"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat8"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat2" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat8"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="B3"
+        android:textOn="B3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat9"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat3" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat9"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="B4"
+        android:textOn="B4"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat10"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat4" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat10"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="ToggleButton"
+        android:textOff="B5"
+        android:textOn="B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat5" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat11"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="ToggleButton"
+        android:textOff="C1"
+        android:textOn="C1"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat12"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat6" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat12"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="C2"
+        android:textOn="C2"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat13"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat7" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat13"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="C3"
+        android:textOn="C3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat14"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat8" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat14"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ToggleButton"
+        android:textOff="C4"
+        android:textOn="C4"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeat15"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat9" />
+
+    <ToggleButton
+        android:id="@+id/btnSeat15"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="ToggleButton"
+        android:textOff="C5"
+        android:textOn="C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeat10" />
+
+    <Button
+        android:id="@+id/btnBuyFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="get some food"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Seat for "
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676449055711",
+    "firebase_url": "https://rpl-cinema.firebaseio.com",
+    "project_id": "rpl-cinema",
+    "storage_bucket": "rpl-cinema.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676449055711:android:50e44f85d8f4c2ab",
+        "android_client_info": {
+          "package_name": "com.example.android.testing2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676449055711-86lj3odgj56qma4tep5oqdd848bh0sjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.testing2",
+            "certificate_hash": "7e1c6cdc6260d1bee6cf0fabd0e17ff611dd8166"
+          }
+        },
+        {
+          "client_id": "676449055711-l1s8l39nd8brv0m6u77osro6cj3mivp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeJqLlkb3ZwQ2o8Lzxoi0J5KSptEoiwQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676449055711-l1s8l39nd8brv0m6u77osro6cj3mivp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
