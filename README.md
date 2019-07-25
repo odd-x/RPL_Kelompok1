@@ -1,7 +1,10 @@
 APlikasi RPL Kelompok 1
-
-Audi Aulia F - 1202160264 \n
-Navy Harumi Ning Erto - 1202160324
-Nune Elga Purnama Aji - 1202160061
-Nurin Tasyrifa - 1202160045
-Rafa Maulana Fadlila - 1202160182
+This application is a simple mockup of how a movie booking application would be like, most of the stuff are hard coded and poorly written so dont expect anything cool. this app was made for my capstone project & mobile app development class final assignment 
+<br>
+This application is made with
+  <ol>
+        <li>Android Studio 3.3</li>
+        <li>Firebase Firestore</li>
+        <li>Youtube API</li>
+  </ol>
+  
